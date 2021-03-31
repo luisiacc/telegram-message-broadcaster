@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "message-broadcaster"
+version = "0.1.0"
+description = "Telegram bot for broadcasting messages to a group of channels/users"
+authors = ["luisiacc <lccpacc@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-telegram-bot = "^13.4.1"
+Telethon = "^1.21.1"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+flake8 = "^3.9.0"
+ipython = "^7.22.0"
+rope = "^0.18.0"
+typing = "^3.7.4"
+
+[tool.black]
+line-length = 120
+target-versions = ["py36"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

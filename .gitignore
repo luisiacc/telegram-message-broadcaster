@@ -1,0 +1,8 @@
+.vim
+/qwe
+.venv
+.git
+*.session
+/user.ini
+/bot.ini
+/tags
